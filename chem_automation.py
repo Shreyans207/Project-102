@@ -2,6 +2,7 @@ import csv
 from collections import Counter
 
 start_up = print('This program will easily  give out the details about any element present in currect periodic table')
+print('')
 
 with open('chem_elements.csv' , newline = '') as f : 
     reader = csv.reader(f)
